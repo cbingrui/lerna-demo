@@ -4,5 +4,5 @@ module.exports = packageA;
 
 function packageA() {
   // TODO
-  console.log('test a01');
+  console.log('test a01 02');
 }
