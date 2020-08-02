@@ -1,5 +1,13 @@
 {
   "npmClient": "yarn",
   "packages": ["packages/*"],
-  "version": "independent"
+  "version": "independent",
+  "command": {
+    "bootstrap": {
+      "hoist": true
+    },
+    "version": {
+      "conventionalCommits": true
+    }
+  }
 }
